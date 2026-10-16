@@ -448,6 +448,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <230>;
         };
+
+        out_or_layer: out_or_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "OUT_OR_LAYER";
+            bindings = <&mo>, <&out>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <230>;
+        };
     };
 
     keymap {
@@ -491,8 +500,8 @@
 
         modifiers {
             bindings = <
-&trans          &toggle_stick LEFT_SHIFT LEFT_SHIFT  &toggle_stick LCTRL LCTRL  &trans
-&kt LEFT_SHIFT  &kt LEFT_CONTROL                     &kt LEFT_ALT               &kt LEFT_GUI
+&trans                               &kp LC(X)                                &kp LC(C)                        &kp LC(V)
+&toggle_stick LEFT_SHIFT LEFT_SHIFT  &toggle_stick LEFT_CONTROL LEFT_CONTROL  &toggle_stick LEFT_ALT LEFT_ALT  &toggle_stick LEFT_GUI LEFT_GUI
             >;
 
             label = "mods";
@@ -527,7 +536,7 @@
 
         bluetooth {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &out OUT_BLE
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &out_or_layer 9 OUT_BLE
 &bt BT_SEL 3  &bt BT_SEL 4  &to 0         &out OUT_USB
             >;
 
