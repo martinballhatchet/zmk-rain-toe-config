@@ -391,7 +391,42 @@
 
         double_pipe {
             bindings = <&kp RA(GRAVE)>;
-            key-positions = <1 0 6>;
+            key-positions = <1 4 5>;
+        };
+
+        back_tick {
+            bindings = <&kp GRAVE>;
+            key-positions = <4 5 3>;
+        };
+
+        page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <4 2 7>;
+        };
+
+        page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <6 3 0>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <0 7 2>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <0 2 5>;
+        };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <4 1 6>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <0 5 3>;
         };
     };
 
