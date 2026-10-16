@@ -203,7 +203,7 @@
 
         question_mark {
             bindings = <&kp QUESTION>;
-            key-positions = <4 1 6>;
+            key-positions = <1 2 7>;
         };
 
         double_quote {
@@ -308,6 +308,75 @@
         print_screen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <1 4 7>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <0 7>;
+            layers = <5>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <0 6>;
+            layers = <5>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <0 5>;
+            layers = <5>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <0 4>;
+            layers = <5>;
+        };
+
+        left_square_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <0 2 3>;
+        };
+
+        right_square_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <0 6 7>;
+        };
+
+        left_curly_bracket {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <0 7 1>;
+        };
+
+        right_curly_breacket {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <7 4 5>;
+        };
+
+        pound {
+            bindings = <&kp HASH>;
+            key-positions = <5 2 3>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <1 6 7>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <6 4 3>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <4 3 1>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <0 5 6>;
         };
     };
 
