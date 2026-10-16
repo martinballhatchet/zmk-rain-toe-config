@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-module-paintbrush
+      url: https://github.com/martinballhatchet/zmk-module-paintbrush
+      revision: main
+      path: modules/zmk-module-paintbrush
   self:
     path: config
