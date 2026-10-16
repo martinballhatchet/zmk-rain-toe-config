@@ -227,7 +227,7 @@
         };
 
         back_slash {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp NON_US_BSLH>;
             key-positions = <0 7>;
             layers = <0>;
         };
@@ -238,7 +238,7 @@
         };
 
         hash {
-            bindings = <&kp HASH>;
+            bindings = <&kp NON_US_HASH>;
             key-positions = <6 3 2 7>;
         };
 
@@ -262,6 +262,52 @@
             bindings = <&kp N0>;
             key-positions = <0 6>;
             layers = <3>;
+        };
+
+        bluetooth_off {
+            bindings = <&to 0>;
+            key-positions = <4 0 3 7>;
+            layers = <8>;
+        };
+
+        ctrl_c {
+            bindings = <&kp LC(C)>;
+            key-positions = <2 0 4>;
+        };
+
+        ctrl_v {
+            bindings = <&kp LC(V)>;
+            key-positions = <0 4 3>;
+        };
+
+        ctrl_x {
+            bindings = <&kp LC(X)>;
+            key-positions = <0 4 1>;
+        };
+
+        ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <0 4 5>;
+        };
+
+        ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <0 4 6>;
+        };
+
+        ctrl_w {
+            bindings = <&kp LC(W)>;
+            key-positions = <0 4 7>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1 2>;
+        };
+
+        print_screen {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <1 4 7>;
         };
     };
 
