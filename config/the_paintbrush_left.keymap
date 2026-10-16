@@ -313,25 +313,25 @@
         f9 {
             bindings = <&kp F9>;
             key-positions = <0 7>;
-            layers = <5>;
+            layers = <6>;
         };
 
         f10 {
             bindings = <&kp F10>;
             key-positions = <0 6>;
-            layers = <5>;
+            layers = <6>;
         };
 
         f11 {
             bindings = <&kp F11>;
             key-positions = <0 5>;
-            layers = <5>;
+            layers = <6>;
         };
 
         f12 {
             bindings = <&kp F12>;
             key-positions = <0 4>;
-            layers = <5>;
+            layers = <6>;
         };
 
         left_square_bracket {
@@ -464,7 +464,7 @@
 
         default_layer {
             bindings = <
-&lt 4 R      &kp A  &kp I  &lt 9 N
+&lt 5 R      &kp A  &kp I  &lt 9 N
 &lt 2 SPACE  &kp T  &kp O  &lt 1 E
             >;
 
@@ -482,7 +482,7 @@
 
         arrows {
             bindings = <
-&trans  &kp HOME        &kp UP_ARROW    &lt 10 END
+&trans  &kp HOME        &kp UP_ARROW    &lt 9 END
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
 
@@ -546,7 +546,7 @@
         layer_select {
             bindings = <
 &to 0  &to 3  &to 6  &trans
-&to 2  &to 5  &to 7  &to 1
+&to 2  &to 6  &to 7  &to 1
             >;
 
             label = "layers";
