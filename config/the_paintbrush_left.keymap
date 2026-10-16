@@ -439,6 +439,17 @@
         };
     };
 
+    behaviors {
+        toggle_stick: toggle_stick {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TOGGLE_STICK";
+            bindings = <&kt>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <230>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -480,8 +491,8 @@
 
         modifiers {
             bindings = <
-&trans          &trans            &trans        &trans
-&kt LEFT_SHIFT  &kt LEFT_CONTROL  &kt LEFT_ALT  &kt LEFT_GUI
+&trans          &toggle_stick LEFT_SHIFT LEFT_SHIFT  &toggle_stick LCTRL LCTRL  &trans
+&kt LEFT_SHIFT  &kt LEFT_CONTROL                     &kt LEFT_ALT               &kt LEFT_GUI
             >;
 
             label = "mods";
