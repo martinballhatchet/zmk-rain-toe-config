@@ -1,4 +1,4 @@
-#rain toe
+# rain toe
 
 Started with Ardux and heavily modified to make a new, different layout - "rain toe". \
 This is intended to just be an 8 key layout; not extended. \
