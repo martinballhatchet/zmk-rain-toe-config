@@ -612,7 +612,7 @@
 
         layer_select {
             bindings = <
-&to 0  &to 3  &to 6  &trans
+&to 0  &to 3  &to 5  &trans
 &to 2  &to 6  &to 7  &to 1
             >;
 
