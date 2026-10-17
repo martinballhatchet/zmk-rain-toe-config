@@ -9,8 +9,9 @@ Layout editable in the amazing https://nickcoutsos.github.io/keymap-editor/ \
 * TODO: Switch out display?
 * TODO: Can we clear toggles?
 * TODO: ?Put back right-handed? NIAR EOT :)
-* TODO: Bluetooth on/off?
 * TODO: override .overlay file to get battery to report properly. Mine is about 86% max
+* TODO: (Test Android bits)
+* TODO: https://zmk.dev/docs/hardware-integration/soft-off-setup 
 
 Below is a rough combo map - hopefully will produce a better one later
 rain toe
