@@ -594,8 +594,8 @@
 
         custom {
             bindings = <
-&kp LG(TAB)  &ext_power EP_TOG  &soft_off         &lt 9 SPACE
-&trans       &bootloader        &kp LC(LA(DOWN))  &trans
+&kp LG(TAB)       &ext_power EP_TOG  &soft_off         &lt 9 SPACE
+&ext_power EP_ON  &bootloader        &kp LC(LA(DOWN))  &sys_reset
             >;
 
             label = "custom";
