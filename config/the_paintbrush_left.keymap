@@ -495,6 +495,12 @@
             key-positions = <7 2 6>;
             layers = <1>;
         };
+
+        media_full_screen {
+            bindings = <&kp LC(LG(DOWN))>;
+            key-positions = <1 6>;
+            layers = <6>;
+        };
     };
 
     macros {
@@ -595,7 +601,7 @@
         custom {
             bindings = <
 &kp LG(TAB)       &ext_power EP_TOG  &soft_off         &lt 9 SPACE
-&ext_power EP_ON  &bootloader        &kp LC(LA(DOWN))  &sys_reset
+&ext_power EP_ON  &bootloader        &kp LC(LG(DOWN))  &sys_reset
             >;
 
             label = "custom";
