@@ -136,6 +136,7 @@
         single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <5 6 3>;
+            layers = <0 3>;
         };
 
         comma {
