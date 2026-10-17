@@ -585,7 +585,7 @@
 
         media {
             bindings = <
-&trans          &trans            &kp C_AC_HOME       &lt 9 C_VOL_UP
+&trans          &kp LC(LG(DOWN))  &kp C_AC_HOME       &lt 9 C_VOL_UP
 &lt 2 C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &lt 1 C_VOLUME_DOWN
             >;
 
