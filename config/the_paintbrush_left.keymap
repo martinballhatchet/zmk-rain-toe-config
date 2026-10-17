@@ -513,7 +513,7 @@
         };
 
         mouse_layer_scroll_right {
-            bindings = <&msc SCRL_R>;
+            bindings = <&msc SCRL_RIGHT>;
             key-positions = <6 1 5>;
             layers = <1>;
         };
