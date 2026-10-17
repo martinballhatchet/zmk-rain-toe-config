@@ -459,6 +459,42 @@
             key-positions = <0 5>;
             layers = <6>;
         };
+
+        arrows_page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <2 6>;
+            layers = <2>;
+        };
+
+        arrows_page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <5 7>;
+            layers = <2>;
+        };
+
+        mouse_layer_scroll_up {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <5 7 2>;
+            layers = <1>;
+        };
+
+        mouse_layer_scroll_down {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <5 7 6>;
+            layers = <1>;
+        };
+
+        mouse_layer_scroll_left {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <5 2 6>;
+            layers = <1>;
+        };
+
+        mouse_layer_scroll_right {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <7 2 6>;
+            layers = <1>;
+        };
     };
 
     macros {
