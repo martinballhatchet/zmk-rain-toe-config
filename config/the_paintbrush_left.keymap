@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -557,8 +558,8 @@
 
         custom {
             bindings = <
-&trans  &trans       &trans  &lt 9 SPACE
-&trans  &bootloader  &trans  &trans
+&kp LG(TAB)  &ext_power EP_TOG  &soft_off         &lt 9 SPACE
+&trans       &bootloader        &kp LC(LA(DOWN))  &trans
             >;
 
             label = "custom";
