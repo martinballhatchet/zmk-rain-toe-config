@@ -1,5 +1,8 @@
 # rain toe
 
+## Acknowledgements
+This started with Ardux [https://ardux.io/] and with The Paintbrush [https://github.com/artseyio/thepaintbrush] ... both are amazing! Thank you KemoNine :) 
+
 ## Design aims
 * This is intended to just be an 8 key layout; not extended.
 * It's primarily left-handed. Might make a right-handed version later.
@@ -12,15 +15,15 @@ Layout editable in the amazing https://nickcoutsos.github.io/keymap-editor/
 ## History
 I started with Ardux, as that (and it's predecessor Artsey) were the layouts that made me realise that you can accomplish a LOT with 8 keys. I implemented about 95% of Ardux on a Keybow 2040, and I learned a lot by doing it. There were some things, though, that I wanted to make better for me.
 
-I noticed that a few of the two-key combinations available weren't being used. I did some rough calculations and realised I could represent every UK letter with one or two keys, so didn't need the 3 keys that are used for some in Ardux.
-I also realised that I type space more than any other character, so using a four-key combination for this wasn't ideal.
+I noticed that a few of the two-key combinations available weren't being used. I did some rough calculations and realised I could represent every UK letter with one or two keys, so didn't need the 3 keys that are used for some in Ardux. \
+I also realised that I type \<space\> more than any other character, so using a four-key combination for this wasn't ideal.
 
-I did some quick analysis of which letters/characters I type most (this is a me thing) and the top 8 were (in some kind of order) <space> A E I N O R T
-So - those are the ones I wanted on my single-keys. I thought it would be good to have <space> on a pinkie, and tried a few different word combinations before settling on RAIN <space>TOE
+I did some quick analysis of which letters/characters I type most (this is a me thing) and the top 8 were (in some kind of order) \<space\> A E I N O R T \
+So - those are the ones I wanted on my single-keys. I thought it would be good to have \<space\> on a pinkie, and tried a few different word combinations before settling on RAIN \<space\>TOE \
 I had to move S and Y into other slots, and then for every other letter that was more than two keys, I found a two-key combination. I made sure to keep backspace and delete as two-key combinations too. I use backspace a lot, especially when learning new layouts. I don't use delete that often, but it felt weirdly wrong to move it.
 
-I then defined (and redefined) lots of the symbols. Many of these do take 3 key-presses, but they avoid the need for a dedicated Symbols layer.
-I've aimed to be symmetric where possible: left and right brackets are broadly similar, slash and backslash are "opposites" of each other.
+I then defined (and redefined) lots of the symbols. Many of these do take 3 key-presses, but they avoid the need for a dedicated Symbols layer. \
+I've aimed to be symmetric where possible: left and right brackets are broadly similar, slash and backslash are "opposites" of each other. \
 Some, I'll admit, are just "leftovers", and if anyone has a better suggestion for these, I am happy to take it!
 
 ## Mods
