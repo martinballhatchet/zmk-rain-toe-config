@@ -163,8 +163,7 @@
         slash {
             bindings = <&kp SLASH>;
             key-positions = <3 4>;
-            layers = <0>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         backspace {
@@ -190,14 +189,14 @@
         clear_bt_profile {
             bindings = <&bt BT_CLR>;
             key-positions = <5 6 2 1>;
-            layers = <9>;
+            layers = <8>;
         };
 
         hyphen {
             bindings = <&kp MINUS>;
             key-positions = <4 1>;
             layers = <0>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         semi_colon {
@@ -243,7 +242,7 @@
         back_slash {
             bindings = <&kp NON_US_BSLH>;
             key-positions = <0 7>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         ampersand {
@@ -282,7 +281,7 @@
         bluetooth_off {
             bindings = <&to 0>;
             key-positions = <4 0 3 7>;
-            layers = <9>;
+            layers = <8>;
         };
 
         ctrl_c {
@@ -488,37 +487,37 @@
         arrows_page_up {
             bindings = <&kp PAGE_UP>;
             key-positions = <2 6>;
-            layers = <9>;
+            layers = <5>;
         };
 
         arrows_page_down {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <5 7>;
-            layers = <9>;
+            layers = <5>;
         };
 
         mouse_layer_scroll_up {
             bindings = <&msc SCRL_UP>;
             key-positions = <1 4 6>;
-            layers = <9>;
+            layers = <6>;
         };
 
         mouse_layer_scroll_down {
             bindings = <&msc SCRL_DOWN>;
             key-positions = <5 6 4>;
-            layers = <9>;
+            layers = <6>;
         };
 
         mouse_layer_scroll_left {
             bindings = <&msc SCRL_LEFT>;
             key-positions = <5 4 1>;
-            layers = <9>;
+            layers = <6>;
         };
 
         mouse_layer_scroll_right {
             bindings = <&msc SCRL_RIGHT>;
             key-positions = <6 1 5>;
-            layers = <9>;
+            layers = <6>;
         };
 
         media_search {
