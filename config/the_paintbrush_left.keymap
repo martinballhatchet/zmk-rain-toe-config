@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/hid_usage_pages.h>
+
+#define NATIVE_FULLSCREEN (ZMK_HID_USAGE(HID_USAGE_CONSUMER, 0x0232))
 
 / {
     combos {
@@ -532,6 +535,15 @@
             bindings = <&kp Q &kp U>;
             label = "QU";
         };
+
+        android_fullscreen: android_fullscreen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp (ZMK_HID_USAGE(HID_USAGE_CONSUMER, 0x0232))>
+                , <&macro_release &kp (ZMK_HID_USAGE(HID_USAGE_CONSUMER, 0x0232))>
+                ;
+        };
     };
 
     behaviors {
@@ -623,7 +635,7 @@
         custom {
             bindings = <
 &kp LG(TAB)       &ext_power EP_TOG  &soft_off         &lt 9 SPACE
-&ext_power EP_ON  &bootloader        &kp LC(LG(DOWN))  &sys_reset
+&ext_power EP_ON  &bootloader        &android_fullscreen &sys_reset
             >;
 
             label = "custom";
