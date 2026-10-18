@@ -564,6 +564,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <230>;
         };
+
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "hold tap";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <230>;
+        };
     };
 
     keymap {
@@ -596,13 +605,13 @@
             label = "functions";
         };
 
-        media {
+        media+mob {
             bindings = <
-&trans          &android_fullscreen  &kp C_AC_HOME       &lt 9 C_VOL_UP
-&lt 5 C_REWIND  &kp C_PLAY_PAUSE     &kp C_FAST_FORWARD  &lt 6 C_VOLUME_DOWN
+&trans          &android_fullscreen      &kp C_AC_HOME       &lt 9 C_VOL_UP
+&lt 5 C_REWIND  &ht C_PLAY C_PLAY_PAUSE  &kp C_FAST_FORWARD  &lt 6 C_VOLUME_DOWN
             >;
 
-            label = "media&mob";
+            label = "media/mob";
         };
 
         custom {
