@@ -473,13 +473,13 @@
         };
 
         media_back {
-            bindings = <&kp K_BACK>;
+            bindings = <&kp LG(BACKSPACE)>;
             key-positions = <0 1>;
             layers = <3>;
         };
 
         media_forwards {
-            bindings = <&kp K_FORWARD>;
+            bindings = <&kp LA(RIGHT)>;
             key-positions = <0 3>;
             layers = <3>;
         };
