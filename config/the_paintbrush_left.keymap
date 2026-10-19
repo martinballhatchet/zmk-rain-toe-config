@@ -544,21 +544,28 @@
                 <&macro_release>,
                 <&kp ZMK_HID_USAGE(HID_USAGE_CONSUMER, 0x0232)>;
         };
+
+        clear_toggle_keys: clear_toggle_keys {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tof LEFT_SHIFT &tof LCTRL &tof LEFT_ALT &tof LEFT_GUI>;
+            label = "Clear Toggle Keys";
+        };
     };
 
     behaviors {
-        toggle_stick: toggle_stick {
+        ts: ts {
             compatible = "zmk,behavior-hold-tap";
-            label = "TOGGLE_STICK";
+            label = "Toggle/Stick";
             bindings = <&kt>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <230>;
         };
 
-        out_or_layer: out_or_layer {
+        ol: out_or_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "OUT_OR_LAYER";
+            label = "Bluetooth output / Layer";
             bindings = <&mo>, <&out>;
 
             #binding-cells = <2>;
@@ -572,6 +579,13 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <230>;
+        };
+
+        tof: key_toggle_off {
+            compatible = "zmk,behavior-key-toggle";
+            label = "Key Toggle Off";
+            #binding-cells = <1>;
+            toggle-mode = "off";
         };
     };
 
@@ -643,8 +657,8 @@
 
         modifiers {
             bindings = <
-&trans                               &kp LC(X)                                &kp LC(C)                        &kp LC(V)
-&toggle_stick LEFT_SHIFT LEFT_SHIFT  &toggle_stick LEFT_CONTROL LEFT_CONTROL  &toggle_stick LEFT_ALT LEFT_ALT  &toggle_stick LEFT_GUI LEFT_GUI
+&trans                     &clear_toggle_keys             &kp LC(X)              &kp LC(V)
+&ts LEFT_SHIFT LEFT_SHIFT  &ts LEFT_CONTROL LEFT_CONTROL  &ts LEFT_ALT LEFT_ALT  &ts LEFT_GUI LEFT_GUI
             >;
 
             label = "mods";
@@ -652,7 +666,7 @@
 
         bluetooth {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &out_or_layer 9 OUT_BLE
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &ol 9 OUT_BLE
 &bt BT_SEL 3  &bt BT_SEL 4  &to 0         &out OUT_USB
             >;
 
