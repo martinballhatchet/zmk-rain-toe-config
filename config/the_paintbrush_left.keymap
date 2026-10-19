@@ -514,12 +514,6 @@
             layers = <6>;
         };
 
-        media_search {
-            bindings = <&kp C_AC_SEARCH>;
-            key-positions = <0 3>;
-            layers = <3>;
-        };
-
         media_switch_display {
             bindings = <&kp LC(LG(D))>;
             key-positions = <5 6>;
