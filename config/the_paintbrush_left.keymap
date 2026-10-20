@@ -557,6 +557,13 @@
             bindings = <&tof LEFT_SHIFT &tof LCTRL &tof LEFT_ALT &tof LEFT_GUI>;
             label = "Clear Toggle Keys";
         };
+
+        normal_brackets: normal_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            label = "Normal Brackets";
+        };
     };
 
     behaviors {
@@ -663,7 +670,7 @@
 
         modifiers {
             bindings = <
-&trans                     &clear_toggle_keys             &tof LEFT_SHIFT        &kp LC(V)
+&trans                     &clear_toggle_keys             &normal_brackets       &kp LC(V)
 &ts LEFT_SHIFT LEFT_SHIFT  &ts LEFT_CONTROL LEFT_CONTROL  &ts LEFT_ALT LEFT_ALT  &ts LEFT_GUI LEFT_GUI
             >;
 
