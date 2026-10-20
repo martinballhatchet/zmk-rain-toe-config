@@ -45,18 +45,17 @@ Layers: I set up a dedicated layer-switch layer on another keyboard and it works
 Functions: same as Numbers, but goes up to F12. Could add more, but honestly other than bespoke keyboard shortcuts I've never used F13+
 
 ## Media / Mobile
-Media+Mob: this is for when I connect my keyboard to my phone. Might iterate this further, but the idea is that it should allow most navigation/functionality to work. I haven't got an Apple device, so that's untested
+Media/Mob: this is for when I connect my keyboard to my phone. Might iterate this further, but the idea is that it should allow most navigation/functionality to work. I haven't got an Apple device, so that's untested
 
 ## Custom
 Custom: put what you want here. Currently, for convenience, I've got a few keys that I'm testing, plus a key to put the keyboard into bootloader mode and one to reset it. 
 
-## Documenting keyboard combinations
-Oh - and one thing that took me a while is to find a good way of representing keyboard combinations. I eventually found that braille characters (3 of them) and different sized spaces gave me something that I could use in a spreadsheet. That way I could check for duplicates and "missing" combos.
+## Documenting and working out keyboard combinations
+Oh - and one thing that took me a while is to find a good way of representing keyboard combinations. I eventually found that braille characters (3 of them) and different sized spaces gave me something that I could use in a spreadsheet. That way I could check for duplicates and "missing" combos. In the end, Google's AI found a good way of displaying them using multiple rows, but I still like the braille method for spreadsheets.
 
 
 ## TODOs
 * TODO: Switch out display renderer for a prettier one
-* TODO: Can we clear toggles?
 * TODO: Right-handed? NIAR EOT :)
 * TODO: https://zmk.dev/docs/hardware-integration/soft-off-setup 
 

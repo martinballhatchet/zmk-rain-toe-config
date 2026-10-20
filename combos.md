@@ -2,7 +2,8 @@
 
 # Note: 
 These work in my locale (UK English). They may or may not work in yours, 
-and apologies if they do not
+and I apologise if they do not. I do not know how to convert to multi-locale,
+and it is not a priority right now.
 
 #### Base Layer
 | Pattern Map | Key / Action |
