@@ -87,6 +87,7 @@
         qu {
             bindings = <&qu>;
             key-positions = <1 7>;
+            layers = <0>;
         };
 
         s {
@@ -222,8 +223,8 @@
             layers = <0 1>;
         };
 
-        left_bracket {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        smart_normal_brackets {
+            bindings = <&normal_brackets>;
             key-positions = <4 2 3>;
             layers = <0 1>;
         };
@@ -301,12 +302,12 @@
 
         ctrl_y {
             bindings = <&kp LC(Y)>;
-            key-positions = <0 4 5>;
+            key-positions = <0 4 6>;
         };
 
         ctrl_z {
             bindings = <&kp LC(Z)>;
-            key-positions = <0 4 6>;
+            key-positions = <0 4 5>;
         };
 
         ctrl_w {
@@ -348,8 +349,8 @@
             layers = <2>;
         };
 
-        left_square_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+        smart_square_brackets {
+            bindings = <&square_brackets>;
             key-positions = <0 2 3>;
             layers = <0 1>;
         };
@@ -360,8 +361,8 @@
             layers = <0 1>;
         };
 
-        left_curly_bracket {
-            bindings = <&kp LEFT_BRACE>;
+        smart_curly_brackets {
+            bindings = <&curly_brackets>;
             key-positions = <0 7 1>;
             layers = <0 1>;
         };
@@ -564,6 +565,20 @@
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
             label = "Normal Brackets";
         };
+
+        square_brackets: square_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "SQUARE_BRACKETS";
+        };
+
+        curly_brackets: curly_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            label = "CURLY_BRACKETS";
+        };
     };
 
     behaviors {
@@ -599,6 +614,15 @@
             label = "Key Toggle Off";
             #binding-cells = <1>;
             toggle-mode = "off";
+        };
+
+        tt: toggle_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Toggle/Tap";
+            bindings = <&kt>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <230>;
         };
     };
 
@@ -643,8 +667,8 @@
 
         custom {
             bindings = <
-&kp LG(TAB)       &ext_power EP_TOG  &soft_off            &lt 9 SPACE
-&ext_power EP_ON  &bootloader        &android_fullscreen  &sys_reset
+&kp LG(TAB)  &ext_power EP_TOG  &soft_off         &trans
+&trans       &bootloader        &tt LEFT_ALT TAB  &sys_reset
             >;
 
             label = "custom";
@@ -670,7 +694,7 @@
 
         modifiers {
             bindings = <
-&trans                     &clear_toggle_keys             &normal_brackets       &kp LC(V)
+&trans                     &clear_toggle_keys             &none                  &none
 &ts LEFT_SHIFT LEFT_SHIFT  &ts LEFT_CONTROL LEFT_CONTROL  &ts LEFT_ALT LEFT_ALT  &ts LEFT_GUI LEFT_GUI
             >;
 
