@@ -236,7 +236,7 @@
         };
 
         at_symbol {
-            bindings = <&kp AT_SIGN>;
+            bindings = <&kp LS(SQT)>;
             key-positions = <5 2 7>;
         };
 
