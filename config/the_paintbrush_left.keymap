@@ -438,7 +438,7 @@
         };
 
         pipe {
-            bindings = <&kp PIPE>;
+            bindings = <&kp PIPE2>;
             key-positions = <0 7 2>;
             layers = <0 1>;
         };
@@ -456,7 +456,7 @@
         };
 
         tilde {
-            bindings = <&kp TILDE>;
+            bindings = <&kp TILDE2>;
             key-positions = <0 5 3>;
             layers = <0 1>;
         };
