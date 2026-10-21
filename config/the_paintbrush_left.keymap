@@ -680,8 +680,8 @@
 
         custom {
             bindings = <
-&kp LG(TAB)  &ext_power EP_TOG  &soft_off         &trans
-&trans       &bootloader        &tt LEFT_ALT TAB  &sys_reset
+&kp LG(TAB)    &ext_power EP_TOG  &soft_off         &trans
+&kp LA(LG(K))  &bootloader        &tt LEFT_ALT TAB  &sys_reset
             >;
 
             label = "custom";
