@@ -218,7 +218,7 @@
         };
 
         double_quote {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp LS(NUMBER_2)>;
             key-positions = <4 5 2>;
             layers = <0 1>;
         };
