@@ -276,7 +276,9 @@ There's also the special Bluetooth mode, activated as per the bottom row in this
 #### Modifiers
 Bottom row is Shift, Ctrl, Alt, Win. Holding toggles that key to be held, tapping makes it sticky for the next key press only. You can stack sticky modifiers (e.g. Shift + Ctrl).
 
-To clear all modifier toggles, use A
+To clear all modifier toggles, use A.
+
+Also, note that you can activate a modifier key press (e.g. "press the Win key") by activatin Sticky on that modifier and then just wait 1000ms (1 second). Sticky activates then deactivates and it acts like a keypress.
 
 | Pattern Map | Key / Action | 
 | :---: | :--- |
