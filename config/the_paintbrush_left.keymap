@@ -92,7 +92,7 @@
 
         s {
             bindings = <&kp S>;
-            key-positions = <0 5>;
+            key-positions = <1 4>;
             layers = <0>;
         };
 
@@ -195,7 +195,7 @@
 
         hyphen {
             bindings = <&kp MINUS>;
-            key-positions = <4 1>;
+            key-positions = <0 5>;
             layers = <0>;
             layers = <0 1>;
         };

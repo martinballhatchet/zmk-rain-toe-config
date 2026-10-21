@@ -90,7 +90,7 @@ and it is not a priority right now.
 | <pre>● ● ○ ●<br>○ ○ ○ ○</pre> | `Q` (Legacy) |
 | <pre>○ ● ○ ○<br>○ ○ ○ ●</pre> | `QU`|
 | <pre>● ○ ○ ○<br>○ ○ ○ ○</pre> | `R` |
-| <pre>● ○ ○ ○<br>○ ● ○ ○</pre> | `S` |
+| <pre>○ ● ○ ○<br>● ○ ○ ○</pre> | `S` |
 | <pre>○ ○ ○ ○<br>○ ● ○ ○</pre> | `T` |
 | <pre>○ ○ ○ ○<br>○ ● ● ○</pre> | `U` |
 | <pre>● ○ ● ○<br>○ ○ ○ ○</pre> | `V` |
@@ -157,7 +157,7 @@ There's also the special Bluetooth mode, activated as per the bottom row in this
 | <pre>○ ● ○ ●<br>● ○ ○ ○</pre> | Plus Sign (`+`) | Base Layer, Numbers |
 | <pre>● ○ ○ ○<br>○ ● ● ○</pre> | Percent (`%`) | Base Layer, Numbers |
 | <pre>○ ● ● ○<br>● ○ ○ ○</pre> | Equals Sign (`=`) | Base Layer, Numbers |
-| <pre>○ ● ○ ○<br>● ○ ○ ○</pre> | Hyphen (`-`) | Base Layer, Numbers |
+| <pre>● ○ ○ ○<br>○ ● ○ ○</pre> | Hyphen (`-`) | Base Layer, Numbers |
 | <pre>○ ○ ○ ●<br>○ ● ● ○</pre> | Single Quote (`'`) | Base Layer, Numbers |
 | <pre>○ ○ ● ○<br>● ● ○ ○</pre> | Double Quote (`"`) | Base Layer, Numbers |
 | <pre>○ ○ ○ ●<br>● ○ ○ ○</pre> | Slash (`/`) | Base Layer, Numbers |
