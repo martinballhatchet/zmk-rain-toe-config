@@ -532,6 +532,12 @@
             key-positions = <6 1>;
             layers = <3>;
         };
+
+        bt_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <5 6>;
+            layers = <8>;
+        };
     };
 
     macros {
@@ -578,6 +584,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
             label = "CURLY_BRACKETS";
+        };
+
+        bt_disconnect_all: bt_disconnect_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_DISC 0 &bt BT_DISC 1 &bt BT_DISC 2 &bt BT_DISC 3 &bt BT_DISC 4>;
+            label = "Disconnect all BT";
         };
     };
 
@@ -703,8 +716,8 @@
 
         bluetooth {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &ol 9 OUT_BLE
-&bt BT_SEL 3  &bt BT_SEL 4  &to 0         &out OUT_USB
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &ol 9 OUT_BLE
+&bt BT_SEL 3  &bt BT_SEL 4  &bt_disconnect_all  &out OUT_USB
             >;
 
             label = "bluetooth";
