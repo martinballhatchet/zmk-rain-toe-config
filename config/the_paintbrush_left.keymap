@@ -218,7 +218,7 @@
         };
 
         double_quote {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp LS(NUMBER_2)>;
             key-positions = <4 5 2>;
             layers = <0 1>;
         };
@@ -680,8 +680,8 @@
 
         custom {
             bindings = <
-&kp LG(TAB)  &ext_power EP_TOG  &soft_off         &trans
-&trans       &bootloader        &tt LEFT_ALT TAB  &sys_reset
+&kp LG(TAB)    &ext_power EP_TOG  &soft_off         &trans
+&kp LA(LG(K))  &bootloader        &tt LEFT_ALT TAB  &sys_reset
             >;
 
             label = "custom";
