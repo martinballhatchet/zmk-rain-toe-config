@@ -223,7 +223,7 @@ There's also the special Bluetooth mode, activated as per the bottom row in this
 | <pre>○ ● ○ ○<br>○ ○ ○ ○</pre> | Turn off screen* |
 | <pre>○ ○ ● ○<br>○ ○ ○ ○</pre> | Not working: Soft Off |
 | <pre>○ ○ ○ ●<br>○ ○ ○ ○</pre> | \<TBC\> |
-| <pre>○ ○ ○ ○<br>● ○ ○ ○</pre> | \<TBC\> |
+| <pre>○ ○ ○ ○<br>● ○ ○ ○</pre> | Win+Alt+K (Mic mute) |
 | <pre>○ ○ ○ ○<br>○ ● ○ ○</pre> | Bootloader |
 | <pre>○ ○ ○ ○<br>○ ○ ● ○</pre> | Hold: Toggle Alt, Tap: Tab |
 | <pre>○ ○ ○ ○<br>○ ○ ○ ●</pre> | Reboot keyboard |
@@ -269,7 +269,7 @@ There's also the special Bluetooth mode, activated as per the bottom row in this
 | <pre>○ ○ ○ ●<br>○ ○ ○ ○</pre> | Switch to Bluetooth |
 | <pre>○ ○ ○ ○<br>● ○ ○ ○</pre> | Select 4th Bluetooth connection |
 | <pre>○ ○ ○ ○<br>○ ● ○ ○</pre> | Select 5th Bluetooth connection |
-| <pre>○ ○ ○ ○<br>○ ○ ● ○</pre> | Back to base layer |
+| <pre>○ ○ ○ ○<br>○ ○ ● ○</pre> | Disconnect all bluetooth |
 | <pre>○ ○ ○ ○<br>○ ○ ○ ●</pre> | Switch to USB |
 | <pre>○ ● ● ○<br>○ ● ● ○</pre> | Clear current Bluetooth Profile |
 
