@@ -112,8 +112,8 @@ and it is not a priority right now.
 | <pre>○ ○ ○ ○<br>○ ● ○ ○</pre> | `6` |
 | <pre>○ ○ ○ ○<br>○ ○ ● ○</pre> | `7` |
 | <pre>○ ○ ○ ○<br>○ ○ ○ ●</pre> | `8` |
-| <pre>● ○ ○ ○<br>○ ○ ○ ●</pre> | `9` |
-| <pre>● ○ ○ ○<br>○ ○ ● ○</pre> | `0` |
+| <pre>● ● ○ ○<br>○ ○ ○ ○</pre> | `9` |
+| <pre>● ○ ● ○<br>○ ○ ○ ○</pre> | `0` |
 
 #### Global commands/keys
 On most layers:-
@@ -193,10 +193,10 @@ There's also the special Bluetooth mode, activated as per the bottom row in this
 | <pre>○ ○ ○ ○<br>○ ● ○ ○</pre> | `F6` |
 | <pre>○ ○ ○ ○<br>○ ○ ● ○</pre> | `F7` |
 | <pre>○ ○ ○ ○<br>○ ○ ○ ●</pre> | `F8` |
-| <pre>● ○ ○ ○<br>○ ○ ○ ●</pre> | `F9` |
-| <pre>● ○ ○ ○<br>○ ○ ● ○</pre> | `F10` |
-| <pre>● ○ ○ ○<br>○ ● ○ ○</pre> | `F11` |
-| <pre>● ○ ○ ○<br>● ○ ○ ○</pre> | `F12` |
+| <pre>● ● ○ ○<br>○ ○ ○ ○</pre> | `F9` |
+| <pre>● ○ ● ○<br>○ ○ ○ ○</pre>  | `F10` |
+| <pre>● ○ ○ ●<br>○ ○ ○ ○</pre> | `F11` |
+| <pre>○ ○ ○ ○<br>● ● ○ ○</pre> | `F12` |
 
 #### Media / mobile layer
 | Pattern Map | Key / Action |
