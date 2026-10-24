@@ -269,13 +269,13 @@
 
         n9 {
             bindings = <&kp N9>;
-            key-positions = <0 7>;
+            key-positions = <1 0>;
             layers = <1>;
         };
 
         n0 {
             bindings = <&kp N0>;
-            key-positions = <0 6>;
+            key-positions = <0 2>;
             layers = <1>;
         };
 
@@ -327,25 +327,25 @@
 
         f9 {
             bindings = <&kp F9>;
-            key-positions = <0 7>;
+            key-positions = <1 0>;
             layers = <2>;
         };
 
         f10 {
             bindings = <&kp F10>;
-            key-positions = <0 6>;
+            key-positions = <0 2>;
             layers = <2>;
         };
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <0 5>;
+            key-positions = <0 3>;
             layers = <2>;
         };
 
         f12 {
             bindings = <&kp F12>;
-            key-positions = <0 4>;
+            key-positions = <5 4>;
             layers = <2>;
         };
 
